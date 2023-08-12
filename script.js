@@ -44,12 +44,6 @@ document.querySelector("#pbtm").addEventListener("click", function (bubbleNum) {
     }
 });
 
-// document.querySelector("#reset").addEventListener("click", function () {
-//      timer = 60;
-//      score = 0;
-//      ranHit = 0;
-//     });
-    
 document.querySelector("#reset").addEventListener("click", function () {
         location.reload();
     });
