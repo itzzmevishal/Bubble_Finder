@@ -18,7 +18,14 @@ function runTime() {
         }
         else {
             clearInterval(timeerintervel);
-            document.querySelector("#pbtm").innerHTML = ` <h1>GAME OVER ❤️</h1>`;
+           let a= document.querySelector("#panel");
+           a.innerHTML = ` <h1>❤️ GAME OVER ❤️  </h1> 
+           <h1>You Score :- ${score}  </h1> 
+           <button>RESTART</button> `;
+           document.querySelector("button").addEventListener("click", function () {
+            location.reload();
+        });
+        
         }
 
     }, 1000);
@@ -44,9 +51,10 @@ document.querySelector("#pbtm").addEventListener("click", function (bubbleNum) {
     }
 });
 
-document.querySelector("#reset").addEventListener("click", function () {
-        location.reload();
-    });
+
+document.querySelector("button").addEventListener("click", function () {
+    location.reload();
+});
 
 
 
