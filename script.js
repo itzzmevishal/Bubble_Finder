@@ -1,4 +1,4 @@
-alert("How to Play a game? \nPress the numbers Shown In HIT box. \nAnd Score as much as you can😊 ")
+alert("How to Play a game? \n\nPress the numbers Shown In HIT box. \nAnd Score as much as you can😊 ")
 let timer = 60;
 let score = 0;
 let ranHit = 0;  //ranHit = random hits
